@@ -1,0 +1,27 @@
+.logout {
+  border: none;
+  background: lightgray;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  transition: 0.3s;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background: firebrick;
+  color: white;
+}
+
+.error {
+  padding: 20px;
+  background: firebrick;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 16px;
+  text-align: center;
+  border-radius: 3px;
+}

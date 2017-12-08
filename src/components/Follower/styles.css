@@ -1,0 +1,33 @@
+.follower {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.follower .avatar {
+  width: 150px;
+  height: 150px;
+  display: block;
+  padding: 3px;
+  border-radius: 3px;
+  box-shadow: 2px 3px 15px 0 rgba(0, 0, 0, 0.3);
+  margin-top: 8px;
+}
+
+.follower .link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.follower .avatar-link {
+  display: block;
+  text-decoration: none;
+}
+
+.follower .link:hover {
+  text-decoration: underline;
+}

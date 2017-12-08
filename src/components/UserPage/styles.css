@@ -1,0 +1,35 @@
+.user {
+  display: flex;
+  margin: 0 -16px;
+}
+
+.user .title {
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.user .col {
+  padding: 0 16px;
+}
+
+.user .avatar {
+  width: 200px;
+  height: 200px;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 5px 20px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 16px;
+}
+
+.user .avatar:last-child {
+  margin-bottom: 0;
+}
+
+.user .stat {
+  margin-bottom: 8px;
+}
+
+.user .stat:last-child {
+  margin-bottom: 0;
+}
